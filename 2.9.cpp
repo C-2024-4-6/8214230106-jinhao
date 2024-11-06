@@ -15,3 +15,4 @@ int main() {
     cout << "每天平均花费: " << average << " 元" << endl;
     return 0;
 }
+     
