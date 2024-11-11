@@ -3,9 +3,9 @@ using namespace std;
 int main() {
     double m, n, b;
     char a;
-    cout << "ÇëÊäÈëÒ»¸ö·ûºÅ:";
+    cout << "è¯·è¾“å…¥ä¸€ä¸ªç¬¦å·:";
     cin >> a;
-    cout << "ÇëÊäÈëÁ½¸öÊý×Ö:";
+    cout << "è¯·è¾“å…¥ä¸¤ä¸ªæ•°å­—:";
     cin >> m >> n;
     switch (a) {
     case '+':
@@ -22,10 +22,10 @@ int main() {
         break;
     case '/':
         if (n != 0) {
-            cout << static_cast<int>(m) / static_cast<int>(n);
+            cout << m / n;
         }
         else {
-            cout << "³ýÊý²»ÄÜÎª0£¡";
+            cout << "é™¤æ•°ä¸èƒ½ä¸º0ï¼";
         }
         break;
     case '%':
@@ -33,11 +33,11 @@ int main() {
             cout << static_cast<int>(m) % static_cast<int>(n);
         }
         else {
-            cout << "³ýÊý²»ÄÜÎª0£¡";
+            cout << "é™¤æ•°ä¸èƒ½ä¸º0ï¼";
         }
         break;
     default:
-        cout << "´íÎó: ÎÞÐ§µÄÔËËã·û£¡" << endl;
+        cout << "é”™è¯¯: æ— æ•ˆçš„è¿ç®—ç¬¦ï¼" << endl;
         break;
     }
 
