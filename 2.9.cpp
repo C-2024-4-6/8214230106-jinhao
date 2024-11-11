@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 int main() {
-    const double price = 0.8;
+    double price = 0.8;
     int sum = 0;
     int day = 1;
     int secondtoday = 2;
@@ -12,7 +12,7 @@ int main() {
     }
     double sum2 = sum * price;
     double average = sum2 / (day - 1);
-    cout << "每天平均花费: " << average << " 元" << endl;
+    cout << "脙驴脤矛脝陆戮霉禄篓路脩: " << average << " 脭陋" << endl;
     return 0;
 }
      
